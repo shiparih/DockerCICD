@@ -1,3 +1,7 @@
+Launch an EC2 instance.
+Connect to the IP using putty or gitbash using your key that you downloaded on your local:
+ssh -i "Docklock.pem" ec2-user@ec2-(IP).us-west-1.compute.amazonaws.com
+
 Install Docker on AMI instance
 1. Update the installed packages and package cache on your instance.
 sudo yum update -y
